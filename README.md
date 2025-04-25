@@ -1,13 +1,29 @@
 # Langflow-Customer-Support-Agent
 
-# 🚀 End-to-End ML Pipeline Deployment
+## ✅ What the Project Demonstrates
+Building a Real-World AI Assistant
 
-## 📝 Project Overview
+It shows how to create an autonomous AI agent capable of interacting with multiple tools, models, and APIs to solve complex problems.
 
-This project demonstrates the development and deployment of a complete end-to-end Machine Learning pipeline. It covers the entire lifecycle of an ML model — from data processing and training to building a prediction API and deploying it to the cloud using CI/CD practices.
+LlamaIndex for Intelligent Information Retrieval
 
-The goal is to showcase **best practices** for operationalizing machine learning models.
+The agent uses LlamaIndex (formerly GPT Index) to index large sets of documents or databases, allowing it to search and reference data efficiently.
 
+Running Local LLMs with Ollama
+
+The project integrates Ollama, which runs local open-source LLMs like LLaMA 2, Mistral, etc., enabling fully local, secure AI execution without relying on external APIs.
+
+Multi-Modal Capabilities
+
+The agent can potentially work with text, PDFs, web data, and more — making it “multi-modal” and adaptable for various business and research use cases.
+
+Tool-Oriented Reasoning via LangChain Agents
+
+It uses LangChain’s agent framework to plan tasks and make decisions — for example, knowing when to search vs. when to summarize.
+
+End-to-End Pipeline & API Deployment
+
+The project includes an API layer (Flask) and is packaged using Docker, ready for production deployment or integration with other services.
 ---
 
 ## 🛠️ Technologies Used
